@@ -9,13 +9,13 @@ namespace AdriaticaDatabase.Models
     public class Ad_Blue
     {
         int IdDecontCursa { get; set; } 
-        //Cursa cursa {get;set;} -- doar dupa ce creezi obiectul Cursa
-        int NrAuto { get; set; }
-        //Auto auto {get;set;} -- la fel dupa ce e creata clasa respectiva
+        Curse cursa {get;set;}
+        int IdNrAuto { get; set; }
+        Lista_NrAuto_Masini_Proprii auto {get;set;}
         int KmParcursi { get; set; }
         int RestRezervorPlecare { get; set; }
         int LitriAlimentati { get; set; }
-        int ConsumPerKM { get; set; }
+        double ConsumPerKM { get; set; }
         int LitriiConsumati { get; set; }
         int RestRezervorSosire { get; set; }
 
