@@ -30,6 +30,7 @@ namespace AdriaticaDatabase.Models
         int IdTipTVACumparariAutofacturare { get; set; }
         Lista_Tip_TVA_Cumparari ListaTipTVACumparariAutofacturare { get; set; }
         int IdFactura { get; set; }
+        Id_Facturi Factura { get; set; }
 
 
 

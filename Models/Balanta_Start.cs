@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace AdriaticaDatabase.Models
 {
-    public class Lista_Judete
+    public class Balanta_Start
     {
-        int IdJudet { get; set; }
-        String Judet { get; set; }
+        int IdLuna { get; set; }
+        Lista_Luni Luna { get; set; }
+        int Anul { get; set; }
     }
 }
