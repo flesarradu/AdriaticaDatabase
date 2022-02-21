@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AdriaticaDatabase.Models
 {
-    internal class Id_Decont_Cursa
+    public class Id_Decont_Cursa
     {
         int IdDecontCursa { get; set; }
     }
