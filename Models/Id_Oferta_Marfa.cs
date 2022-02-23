@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace AdriaticaDatabase.Models
 {
-    public class Id_Oferta_Firma
+    public class Id_Oferta_Marfa
     {
-        int IdOfertaFirma { get; set; }
+        int IdOfertaMarfa { get; set; }
     }
 }
