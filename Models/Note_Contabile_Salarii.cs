@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AdriaticaDatabase.Models
 {
-    internal class Note_Contabile_Salarii
+    public class Note_Contabile_Salarii
     {
         int IdNotaSalariu { get; set; }
         String ExplicatiiSalarii { get; set; }

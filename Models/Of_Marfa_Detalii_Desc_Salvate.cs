@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AdriaticaDatabase.Models
 {
-    internal class Of_Marfa_Detalii_Desc_Salvate
+    public class Of_Marfa_Detalii_Desc_Salvate
     {
         int IdDetaliiDescS { get; set; }
         int IdOMDetaliiDescS { get; set; }
